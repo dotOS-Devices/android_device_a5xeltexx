@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-'''a3xelte release tool'''
+'''a5xelte release tool'''
 
 import common
 import os
@@ -41,6 +41,7 @@ def FullOTA_InstallBegin(info):
     info.script.AppendExtra('ui_print("                                                    ");');
     info.script.AppendExtra('ui_print("                Thanks for installing               ");');
     info.script.AppendExtra('ui_print("                                                    ");');
-    info.script.AppendExtra('ui_print("    --> Maintainer: bunnyy                           ");');
+    info.script.AppendExtra('ui_print("    --> Maintainer: bunnyy                          ");');
     info.script.AppendExtra('ui_print("    --> Device: Samsung Galaxy A5 2016              ");');
+    info.script.AppendExtra('ui_print("    --> Github: BunsExynos                          ");');
     info.script.AppendExtra('ui_print("                                                    ");');

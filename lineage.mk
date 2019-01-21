@@ -16,14 +16,17 @@
 #
 
 # Initialise device config
-$(call inherit-product, device/samsung/a5xeltexx/full_a5xeltexx.mk)
+$(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_a5xeltexx
-PRODUCT_DEVICE := a5xeltexx
+PRODUCT_NAME := lineage_a5xelte
+PRODUCT_DEVICE := a5xelte
 PRODUCT_MODEL := SM-A510F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

@@ -17,11 +17,11 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter a5xeltexx,$(TARGET_DEVICE)),)
+ifneq ($(filter a5xelte,$(TARGET_DEVICE)),)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-#include $(CLEAR_VARS)
+include $(CLEAR_VARS)
 
 # Create links for OpenCL files
 #$(shell mkdir -p  $(TARGET_OUT)/vendor/lib; \

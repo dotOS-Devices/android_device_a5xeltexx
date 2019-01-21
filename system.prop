@@ -1,9 +1,18 @@
 # Display
 ro.sf.lcd_density=480
 
+# read single/dual-SIM properties
+import /vendor/etc/properties/radio.prop
+
+#
+# Networking
+#
+net.tethering.noprovisioning=true
+persist.data.netmgrd.qos.enable=false
+ro.use_data_netmgrd=false
+
 # Fixes game crashing (HeartStone)
 # debug.egl.force_msaa=true
-# ro.sf.disable_triple_buffer=0
 
 # Dalvik/Art
 dalvik.vm.image-dex2oat-filter=speed
@@ -35,42 +44,6 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 
-# Increase default scan rate of wifi
-wifi.supplicant_scan_interval=60
-
-### Suppress some logcat output
-# NFC
-log.tag.BrcmNfcJni=S
-log.tag.BrcmNfcNfa=S
-log.tag.SecHAL=S
-
-# Camera
-log.tag.ExynosCamera=S
-log.tag.ExynosCamera1Parameters=S
-log.tag.ExynosCamera1SecParameters=S
-log.tag.ExynosCameraActivityAutofocus=S
-log.tag.ExynosCameraActivityAutofocusSec=S
-log.tag.ExynosCameraActivityControl=S
-log.tag.ExynosCameraActivityFlash=S
-log.tag.ExynosCameraActivityFlashSec=S
-log.tag.ExynosCameraBufferManager=S
-log.tag.ExynosCameraFrameFactory=S
-log.tag.ExynosCameraFrameFactory3aaIspOtf=S
-log.tag.ExynosCameraFrameFactoryPreview=S
-log.tag.ExynosCameraFrameManager=S
-log.tag.ExynosCameraInterface=S
-log.tag.ExynosCameraMCPipe=S
-log.tag.ExynosCameraMetadataConverter=S
-log.tag.ExynosCameraNode=S
-log.tag.ExynosCameraPipe=S
-log.tag.ExynosCameraPipeFlite=S
-log.tag.ExynosCameraPipeGSC=S
-log.tag.ExynosCameraPipeJpeg=S
-log.tag.ExynosCameraSec=S
-log.tag.ExynosCameraUtils=S
-log.tag.SecCameraPreviewFrameScheduler=S
-log.tag.SecCameraUtil=S
-
 #
 # from device/samsung/a5xelte/system.prop
 #
@@ -79,5 +52,5 @@ log.tag.SecCameraUtil=S
 #
 #ro.kernel.qemu=0
 #ro.kernel.qemu.gles=1
-persist.demo.hdmirotationlock=false
+#persist.demo.hdmirotationlock=false
 #ro.zygote.disable_gl_preload=1

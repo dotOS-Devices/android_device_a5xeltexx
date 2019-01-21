@@ -2311,22 +2311,22 @@
 	<path name="gain-media-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-media-headset-mic">
 		<ctl name="MIC2 Volume" value="4" />
 		<ctl name="MIC2 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-media-headphone-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-media-bt-sco-headset-in">
@@ -2338,23 +2338,23 @@
 		<ctl name="MIC1 Volume" value="10" />
 		<ctl name="MIC1 Boost Volume" value="1" />
 		<ctl name="Line-in Volume" value="4" />
-		<ctl name="ADC Left Gain" value="138" />
-		<ctl name="ADC Right Gain" value="140" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-camcorder-headset-mic">
 		<ctl name="MIC2 Volume" value="8" />
 		<ctl name="MIC2 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="137" />
-		<ctl name="ADC Right Gain" value="137" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-camcorder-headphone-mic">
 		<ctl name="MIC1 Volume" value="8" />
 		<ctl name="MIC1 Boost Volume" value="2" />
 		<ctl name="Line-in Volume" value="4" />
-		<ctl name="ADC Left Gain" value="147" />
-		<ctl name="ADC Right Gain" value="147" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<!-- voice recording input volume -->
@@ -2362,22 +2362,22 @@
 	<path name="gain-recording-mic">
 		<ctl name="MIC1 Volume" value="8" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="129" />
-		<ctl name="ADC Right Gain" value="129" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-recording-headset-mic">
 		<ctl name="MIC2 Volume" value="8" />
 		<ctl name="MIC2 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="137" />
-		<ctl name="ADC Right Gain" value="137" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-recording-headphone-mic">
 		<ctl name="MIC1 Volume" value="8" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="145" />
-		<ctl name="ADC Right Gain" value="145" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-recording-bt-sco-headset-in">
@@ -2387,15 +2387,15 @@
 	<path name="gain-recording-jam-mic">
 		<ctl name="MIC1 Volume" value="8" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="129" />
-		<ctl name="ADC Right Gain" value="129" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-recording-jam-headset-mic">
 		<ctl name="MIC2 Volume" value="8" />
 		<ctl name="MIC2 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="137" />
-		<ctl name="ADC Right Gain" value="137" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<!-- interview input volume -->
@@ -2542,30 +2542,30 @@
 	<path name="gain-communication-handset-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="132" />
-		<ctl name="ADC Right Gain" value="132" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-communication-speaker-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
 		<ctl name="Line-in Volume" value="5" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-communication-headset-mic">
 		<ctl name="MIC2 Volume" value="11" />
 		<ctl name="MIC2 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-communication-headphone-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="127" />
-		<ctl name="ADC Right Gain" value="127" />
+		<ctl name="ADC Left Gain" value="146" />
+		<ctl name="ADC Right Gain" value="146" />
 	</path>
 
 	<path name="gain-communication-bt-sco-headset-in">
@@ -3565,12 +3565,10 @@
     <path name="gain-media-mic" />
   </path>
 
-  <!-- Samsung uses the same path
   <path name="headset-mic">
     <path name="media-headset-mic" />
     <path name="gain-media-headset-mic" />
   </path>
-  -->
 
   <path name="voice-mic">
     <path name="incall_nb-handset-mic" />
@@ -3641,3 +3639,4 @@
     <path name="gain-recording-mic" />
   </path>
 </mixer>
+

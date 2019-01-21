@@ -15,8 +15,19 @@
 # limitations under the License.
 #
 
-#####################
-# Includes
-#####################
+# Initialise device config
+$(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
 
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit common Lineage phone.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+
+# Set those variables here to overwrite the inherited values.
+PRODUCT_NAME := rr_a5xelte
+PRODUCT_DEVICE := a5xelte
+PRODUCT_MODEL := SM-A510F
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
